@@ -1,0 +1,20 @@
+{
+  "name": "users-rest-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RESTful users API using Node.js, Express, and SQLite",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
